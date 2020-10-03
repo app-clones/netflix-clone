@@ -6,9 +6,7 @@
 
 ## How to setup and use
 
-1. Fork/Clone/Download this repo
-2. Run `yarn` or `npm install` depending on what your using
-3. TODO: Update these steps when the app is complete
+This app will not work right now. Please do not try and run it.
 
 ---
 
