@@ -3,10 +3,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Home, Browse, Signin, Signup } from "./pages";
 import * as ROUTES from "./constants/routes";
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes";
+import { useAuthListener } from "./hooks";
 
 export default function App() {
-    // TODO: Add Firebase user here
-    const user = {};
+    const { user } = useAuthListener();
 
     return (
         <Router>
