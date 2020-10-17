@@ -1,5 +1,5 @@
 import React from "react";
-import { render, fireEvent, queryByTestId } from "@testing-library/react";
+import { render, fireEvent } from "@testing-library/react";
 import faqsData from "../../json/faqs.json";
 import { Accordion } from "../../components";
 
