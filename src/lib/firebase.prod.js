@@ -7,13 +7,7 @@ import "firebase/auth";
 
 // 2) See the README for how to get this info
 const config = {
-    apiKey: "AIzaSyCYtAb_fQcpS-fkyMlisqtF1wR5WMaxeAQ",
-    authDomain: "netflix-clone-a412a.firebaseapp.com",
-    databaseURL: "https://netflix-clone-a412a.firebaseio.com",
-    projectId: "netflix-clone-a412a",
-    storageBucket: "netflix-clone-a412a.appspot.com",
-    messagingSenderId: "746105988669",
-    appId: "1:746105988669:web:6518dd9fe86b05f2146c54"
+    
 };
 
 const firebase = Firebase.initializeApp(config);
