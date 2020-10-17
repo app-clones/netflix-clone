@@ -1,7 +1,11 @@
 version: 2
 
 updates:
+<<<<<<< HEAD
     - package-ecosystem: "npm"
+=======
+    - package-ecosystem: "yarn"
+>>>>>>> fec0e08250deada46dc58247534c502f2550b927
       directory: "/"
       schedule:
           interval: "daily"
