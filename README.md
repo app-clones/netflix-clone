@@ -6,7 +6,7 @@
 
 ## How to setup and use
 
-This app will not work right now. Please do not try and run it.
+Coming Soon™ 
 
 ---
 
