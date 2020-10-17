@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 import React, { useState } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 
