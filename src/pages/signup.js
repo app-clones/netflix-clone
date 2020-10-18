@@ -6,8 +6,9 @@ import { HeaderContainer } from "../containers/header";
 import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
 
-export default function Signup() {
+export default function SignUp() {
     const history = useHistory();
+
     const { firebase } = useContext(FirebaseContext);
 
     const [firstName, setFirstName] = useState("");
@@ -71,7 +72,11 @@ export default function Signup() {
                             autocomplete="password"
                             onChange={({ target }) => setPassword(target.value)}
                         />
-                        <Form.Submit disabled={isInvalid} type="submit">
+                        <Form.Submit
+                            data-testid="sign-up"
+                            disabled={isInvalid}
+                            type="submit"
+                        >
                             Sign Up
                         </Form.Submit>
 
