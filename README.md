@@ -6,7 +6,13 @@
 
 ## How to setup and use
 
-Coming Soon™ 
+Coming Soon™
+
+---
+
+## Demo
+
+Click [here](https://thumbsnap.com/i/7vQZK5Ny.mp4) to see a demo.
 
 ---
 
