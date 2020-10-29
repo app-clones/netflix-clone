@@ -65,12 +65,7 @@ const firebase = {
 
 describe("<Browse />", () => {
     it("renders the browse page with <SelectProfileContainer />", async () => {
-        const {
-            getByTestId,
-            getByPlaceholderText,
-            queryByTestId,
-            debug
-        } = render(
+        render(
             <Router>
                 <FirebaseContext.Provider value={{ firebase }}>
                     <Browse />
