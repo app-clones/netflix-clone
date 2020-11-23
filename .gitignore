@@ -21,3 +21,14 @@ yarn-debug.log*
 yarn-error.log*
 .vscode/
 src/lib/firebase.prod.js
+.eslintcache
+
+# Yarn
+.yarn/*
+.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.eslintcache

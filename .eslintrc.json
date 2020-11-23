@@ -3,7 +3,9 @@
         "airbnb",
         "prettier",
         "prettier/react",
-        "plugin:jsx-a11y/recommended"
+        "plugin:jsx-a11y/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings"
     ],
     "parser": "babel-eslint",
     "parserOptions": {
@@ -65,6 +67,10 @@
         "react/no-unescaped-entities": 0,
         "jsx-a11y/accessible-emoji": 0,
         "react/require-default-props": 0,
+        "import/named": 2,
+        "import/namespace": 2,
+        "import/default": 2,
+        "import/export": 2,
         "react/jsx-filename-extension": [
             1,
             {
@@ -88,5 +94,5 @@
             }
         ]
     },
-    "plugins": ["react", "react-hooks"]
+    "plugins": ["react", "react-hooks", "import"]
 }
