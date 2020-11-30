@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/beatzoid/netflix-clone/badge)](https://www.codefactor.io/repository/github/beatzoid/netflix-clone)
 # Netflix clone
 
 ### A netflix clone made using React, Firebase, Firestore, and Styled Components.
