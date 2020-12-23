@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable jsx-a11y/media-has-caption */
 import React, { useState, useContext, createContext } from "react";
 import ReactDOM from "react-dom";
 import { Container, Button, Overlay, Inner } from "./styles/player";
