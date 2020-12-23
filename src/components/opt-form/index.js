@@ -23,6 +23,6 @@ OptForm.Text = function OptFormText({ children, ...restProps }) {
     return <Text {...restProps}>{children}</Text>;
 };
 
-OptForm.Break = function OptFormBreak({ children, ...restProps }) {
+OptForm.Break = function OptFormBreak({ _, ...restProps }) {
     return <Break {...restProps} />;
 };
