@@ -23,7 +23,7 @@ If you run into any issues, don't be afraid to open a issue! Either I or someone
 
 ## Demo
 
-Click [here](https://thumbsnap.com/i/7vQZK5Ny.mp4) to see a demo.
+Click [here](https://beat-netflix-clone.herokuapp.com) to use a demo.
 
 ---
 
