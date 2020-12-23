@@ -6,7 +6,6 @@ import "firebase/auth";
 // import { seedDatabase } from '../seed';
 
 // 2) See the README for how to get this info
-console.log(process.env);
 const config = {
     apiKey: process.env.REACT_APP_API_KEY,
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
