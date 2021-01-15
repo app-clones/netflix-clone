@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "firebase": "8.2.2",
+        "firebase": "8.2.3",
         "fuse.js": "6.4.6",
         "normalize.css": "8.0.1",
         "react": "17.0.1",
