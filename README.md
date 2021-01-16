@@ -1,4 +1,4 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/beatzoid/netflix-clone/badge)](https://www.codefactor.io/repository/github/beatzoid/netflix-clone)
+[![CodeFactor](https://www.codefactor.io/repository/github/app-clones/netflix-clone/badge)](https://www.codefactor.io/repository/github/app-clones/netflix-clone)
 # Netflix clone
 
 ### A netflix clone made using React, Firebase, Firestore, and Styled Components.
@@ -15,9 +15,11 @@
 
 4. Fill in `.env` with the details you got in step 2
 
-5. Run `yarn start` or `npm start`. The app should now work!
+5. Click [here](https://youtu.be/x_EEwGe-a9o?t=12056) and watch until 3:23:30. You should now have data in your database!
 
-If you run into any issues, don't be afraid to open a issue! Either I or someone else will try to assist. Just provide both your code AND error.
+6. Run `yarn start` or `npm start`. The app should now work!
+
+If you run into any issues, don't be afraid to open a issue! Either I or someone else will try to assist. Just provide the error you get and the action you are trying to perform.
 
 ---
 
