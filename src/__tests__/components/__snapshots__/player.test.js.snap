@@ -5,7 +5,7 @@ exports[`<Player /> renders the <Player /> with a placeholder video 1`] = `
   class="player__Container-sc-1c49yiu-0"
 >
   <button
-    class="player__Button-sc-1c49yiu-3 cKAXGp"
+    class="player__Button-sc-1c49yiu-3 fkKuU"
   >
     Play
   </button>

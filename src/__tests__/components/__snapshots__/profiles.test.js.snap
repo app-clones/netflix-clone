@@ -2,26 +2,26 @@
 
 exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
 <div
-  class="profiles__Container-bxtkkv-0 glIXWo"
+  class="profiles__Container-bxtkkv-0 fGoDNJ"
 >
   <h1
-    class="profiles__Title-bxtkkv-1 iIBFxC"
+    class="profiles__Title-bxtkkv-1 hPuemP"
   >
     Who's watching?
   </h1>
   <ul
-    class="profiles__List-bxtkkv-2 kUSmfb"
+    class="profiles__List-bxtkkv-2 hybA-dO"
   >
     <li
-      class="profiles__Item-bxtkkv-5 fFKdrN"
+      class="profiles__Item-bxtkkv-5 kJPhXM"
     >
       <img
-        class="profiles__Picture-bxtkkv-4 izXQyg"
+        class="profiles__Picture-bxtkkv-4 kpLrAV"
         data-testid="profile-picture"
         src="/images/users//images/karl.png.png"
       />
       <p
-        class="profiles__Name-bxtkkv-3 ldskSv"
+        class="profiles__Name-bxtkkv-3 jQTvVi"
       >
         Karl
       </p>
@@ -32,26 +32,26 @@ exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
 
 exports[`<Profiles /> renders the <Profiles /> with populated data but misc profile image 1`] = `
 <div
-  class="profiles__Container-bxtkkv-0 glIXWo"
+  class="profiles__Container-bxtkkv-0 fGoDNJ"
 >
   <h1
-    class="profiles__Title-bxtkkv-1 iIBFxC"
+    class="profiles__Title-bxtkkv-1 hPuemP"
   >
     Who's watching?
   </h1>
   <ul
-    class="profiles__List-bxtkkv-2 kUSmfb"
+    class="profiles__List-bxtkkv-2 hybA-dO"
   >
     <li
-      class="profiles__Item-bxtkkv-5 fFKdrN"
+      class="profiles__Item-bxtkkv-5 kJPhXM"
     >
       <img
-        class="profiles__Picture-bxtkkv-4 izXQyg"
+        class="profiles__Picture-bxtkkv-4 kpLrAV"
         data-testid="profile-picture-misc"
         src="/images/misc/loading.gif"
       />
       <p
-        class="profiles__Name-bxtkkv-3 ldskSv"
+        class="profiles__Name-bxtkkv-3 jQTvVi"
       >
         Karl
       </p>

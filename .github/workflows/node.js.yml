@@ -15,7 +15,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [12.x, 14.x]
+                node-version: [14.x, 15.x]
                 os: [ubuntu-latest, windows-latest, macOS-latest]
 
         steps:
@@ -24,5 +24,12 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: ${{ matrix.node-version }}
-            - run: yarn install --frozen-lockfile
-            - run: yarn run build --if-present
+
+            - name: Install Dependencies
+              run: yarn install --frozen-lockfile
+
+            - name: Build React App
+              run: yarn run build
+
+            - name: Run tests
+              run: yarn test

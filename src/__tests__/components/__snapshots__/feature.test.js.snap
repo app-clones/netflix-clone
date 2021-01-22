@@ -2,10 +2,10 @@
 
 exports[`<Feature /> renders the <Feature /> with just a sub-title 1`] = `
 <div
-  class="feature__Container-sc-6swrp6-0 caFRqP"
+  class="feature__Container-sc-6swrp6-0 dUyrwq"
 >
   <h2
-    class="feature__SubTitle-sc-6swrp6-2 cTtAIE"
+    class="feature__SubTitle-sc-6swrp6-2 dQnJQV"
   >
     Watch anywhere. Cancel at any time.
   </h2>
@@ -14,10 +14,10 @@ exports[`<Feature /> renders the <Feature /> with just a sub-title 1`] = `
 
 exports[`<Feature /> renders the <Feature /> with just a title 1`] = `
 <div
-  class="feature__Container-sc-6swrp6-0 caFRqP"
+  class="feature__Container-sc-6swrp6-0 dUyrwq"
 >
   <h1
-    class="feature__Title-sc-6swrp6-1 kfqHuI"
+    class="feature__Title-sc-6swrp6-1 jiOEhx"
   >
     Unlimited films, TV programs and more.
   </h1>
@@ -26,15 +26,15 @@ exports[`<Feature /> renders the <Feature /> with just a title 1`] = `
 
 exports[`<Feature /> renders the <Feature /> with populated data 1`] = `
 <div
-  class="feature__Container-sc-6swrp6-0 caFRqP"
+  class="feature__Container-sc-6swrp6-0 dUyrwq"
 >
   <h1
-    class="feature__Title-sc-6swrp6-1 kfqHuI"
+    class="feature__Title-sc-6swrp6-1 jiOEhx"
   >
     Unlimited films, TV programs and more.
   </h1>
   <h2
-    class="feature__SubTitle-sc-6swrp6-2 cTtAIE"
+    class="feature__SubTitle-sc-6swrp6-2 dQnJQV"
   >
     Watch anywhere. Cancel at any time.
   </h2>
