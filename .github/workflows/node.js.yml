@@ -29,7 +29,7 @@ jobs:
               run: yarn install --frozen-lockfile
 
             - name: Build React App
-              run: yarn run build
+              run: yarn build --if-present
 
             - name: Run tests
               run: yarn test
