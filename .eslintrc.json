@@ -1,10 +1,5 @@
 {
-    "extends": [
-        "airbnb",
-        "prettier",
-        "prettier/react",
-        "plugin:jsx-a11y/recommended"
-    ],
+    "extends": ["airbnb", "prettier"],
     "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 8,
@@ -45,6 +40,10 @@
                 "props": false
             }
         ],
+        "react/jsx-indent": 0,
+        "react/jsx-indent-props": 0,
+        "react/jsx-curly-newline": 0,
+        "react/jsx-one-expression-per-line": 0,
         "no-console": 0,
         "import/prefer-default-export": 0,
         "import": 0,
