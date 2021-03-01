@@ -68,7 +68,7 @@
     "@testing-library/react": "11.2.5",
     "@testing-library/user-event": "12.7.3",
     "babel-eslint": "10.1.0",
-    "eslint": "7.20.0",
+    "eslint": "7.21.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
