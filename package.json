@@ -65,7 +65,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.11.10",
-    "@testing-library/react": "11.2.5",
+    "@testing-library/react": "11.2.6",
     "@testing-library/user-event": "13.0.16",
     "babel-eslint": "10.1.0",
     "eslint": "7.23.0",
