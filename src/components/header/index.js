@@ -17,9 +17,9 @@ import {
     Dropdown,
     Search,
     SearchIcon,
-    SearchInput,
-    PlayButton
+    SearchInput
 } from "./styles/header";
+import { Player } from "..";
 
 export default function Header({ bg = true, children, ...restProps }) {
     return bg ? (
@@ -88,8 +88,16 @@ Header.TextLink = function HeaderTextLink({ children, ...restProps }) {
     return <Link {...restProps}>{children}</Link>;
 };
 
-Header.PlayButton = function HeaderPlayButton({ children, ...restProps }) {
-    return <PlayButton {...restProps}>{children}</PlayButton>;
+Header.PlayButton = function HeaderPlayButton({ children }) {
+    return (
+        <>
+            <Player>
+                <Player.Button />
+                <Player.Video src="/videos/video-placeholder.mp4" />
+            </Player>
+            {children}
+        </>
+    );
 };
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
