@@ -77,6 +77,6 @@
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "6.0.0",
-    "prettier": "2.3.0"
+    "prettier": "2.3.1"
   }
 }
