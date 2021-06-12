@@ -26,7 +26,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
 
             - name: Install Dependencies
-              run: yarn install --frozen-lockfile
+              run: yarn install
 
             - name: Build React App
               run: yarn build --if-present
