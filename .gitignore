@@ -21,3 +21,12 @@ yarn-error.log*
 .eslintcache
 .env
 .idea/
+
+# Yarn V2
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
