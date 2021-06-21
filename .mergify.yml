@@ -1,12 +1,15 @@
 pull_request_rules:
     - name: Automatic merge on approval
       conditions:
-          - check-success=build (14.x, ubuntu-latest)
-          - check-success=build (14.x, windows-latest)
-          - check-success=build (14.x, macOS-latest)
-          - check-success=build (15.x, ubuntu-latest)
-          - check-success=build (15.x, windows-latest)
-          - check-success=build (15.x, macOS-latest)
+          - check-success=Node 14.x on windows-latest
+          - check-success=Node 14.x on macOS-latest
+          - check-success=Node 15.x on ubuntu-latest
+          - check-success=Node 15.x on windows-latest
+          - check-success=Node 15.x on macOS-latest
+          - check-success=Node 16.x on ubuntu-latest
+          - check-success=Node 16.x on windows-latest
+          - check-success=Node 16.x on macOS-latest
+
           - label=dependencies
       actions:
           merge:
