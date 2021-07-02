@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "8.6.8",
+    "firebase": "8.7.0",
     "fuse.js": "6.4.6",
     "immer": "^9.0.3",
     "normalize.css": "8.0.1",
