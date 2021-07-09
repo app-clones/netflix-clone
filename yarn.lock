@@ -1195,9 +1195,9 @@
   dependencies:
     "@firebase/app-types" "0.6.2"
 
-"@firebase/database@0.10.6":
-  version "0.10.6"
-  resolved "https://registry.yarnpkg.com/@firebase/database/-/database-0.10.6.tgz#bec8edff424e16bff50376c7822e051997228332"
+"@firebase/database@0.10.7":
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/@firebase/database/-/database-0.10.7.tgz#6241b573741ccb45b71d03226c0bfef6d2dbafb8"
   dependencies:
     "@firebase/auth-interop-types" "0.1.6"
     "@firebase/component" "0.5.4"
@@ -4863,16 +4863,16 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.7.0.tgz#5b8949f7649a29f2b0d544815d5915bf1657f9d2"
+firebase@8.7.1:
+  version "8.7.1"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.7.1.tgz#b22ce063c4df16d849c0160662e6fcf6bc396f32"
   dependencies:
     "@firebase/analytics" "0.6.14"
     "@firebase/app" "0.6.28"
     "@firebase/app-check" "0.2.0"
     "@firebase/app-types" "0.6.2"
     "@firebase/auth" "0.16.8"
-    "@firebase/database" "0.10.6"
+    "@firebase/database" "0.10.7"
     "@firebase/firestore" "2.3.8"
     "@firebase/functions" "0.6.13"
     "@firebase/installations" "0.4.30"
