@@ -84,7 +84,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "4.2.0",
-    "glob-parent": "^6.0.0",
+    "glob-parent": "^6.0.1",
     "husky": "7.0.1",
     "normalize-url": "^7.0.0",
     "postcss": "7.0.36",
