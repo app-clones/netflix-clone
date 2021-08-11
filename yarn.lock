@@ -7070,9 +7070,9 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
 
-normalize-url@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-7.0.0.tgz#7150a7eaf78d48b4a1e57d2b52de579e6b31fd30"
+normalize-url@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-7.0.1.tgz#44b67c94ecb2cd31d2d0491fe5cc13abb990e787"
 
 normalize.css@8.0.1:
   version "8.0.1"
