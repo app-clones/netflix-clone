@@ -1137,16 +1137,16 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@firebase/app-check-interop-types/-/app-check-interop-types-0.1.0.tgz#83afd9d41f99166c2bdb2d824e5032e9edd8fe53"
 
-"@firebase/app-check-types@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@firebase/app-check-types/-/app-check-types-0.3.0.tgz#0467876f48773e009e6cad92387dc7a42f13b04b"
+"@firebase/app-check-types@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@firebase/app-check-types/-/app-check-types-0.3.1.tgz#1084723debad3ad9e7997d3b356165d275c25fcc"
 
-"@firebase/app-check@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@firebase/app-check/-/app-check-0.3.0.tgz#9d00687fd03ed6be99a248d4ec588602e31eb8c1"
+"@firebase/app-check@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@firebase/app-check/-/app-check-0.3.1.tgz#78210513455ea6da437cb5fcf18239db9cd1e7de"
   dependencies:
     "@firebase/app-check-interop-types" "0.1.0"
-    "@firebase/app-check-types" "0.3.0"
+    "@firebase/app-check-types" "0.3.1"
     "@firebase/component" "0.5.5"
     "@firebase/logger" "0.2.6"
     "@firebase/util" "1.2.0"
@@ -4863,13 +4863,13 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@8.9.0:
-  version "8.9.0"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.9.0.tgz#7a886716c32302671c1ac43d758b81b01cf41ae9"
+firebase@8.9.1:
+  version "8.9.1"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.9.1.tgz#9b3bc8e69830cd8bcabd3d296068e9d9ff481f35"
   dependencies:
     "@firebase/analytics" "0.6.17"
     "@firebase/app" "0.6.29"
-    "@firebase/app-check" "0.3.0"
+    "@firebase/app-check" "0.3.1"
     "@firebase/app-types" "0.6.3"
     "@firebase/auth" "0.16.8"
     "@firebase/database" "0.10.9"
