@@ -10886,7 +10886,7 @@ fsevents@^1.2.7:
     prettier: 2.3.2
     react: 17.0.2
     react-dom: 17.0.2
-    react-router-dom: 5.2.1
+    react-router-dom: 5.3.0
     react-scripts: 4.0.3
     styled-components: 5.3.1
     typescript: ^4.3.5
@@ -13130,9 +13130,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:5.2.1":
-  version: 5.2.1
-  resolution: "react-router-dom@npm:5.2.1"
+"react-router-dom@npm:5.3.0":
+  version: 5.3.0
+  resolution: "react-router-dom@npm:5.3.0"
   dependencies:
     "@babel/runtime": ^7.12.13
     history: ^4.9.0
@@ -13143,7 +13143,7 @@ fsevents@^1.2.7:
     tiny-warning: ^1.0.0
   peerDependencies:
     react: ">=15"
-  checksum: a9664a1ef7b795df30eb00e5e4efd64920678ce620548e3f3e4a1fa23ef0a188bfbbff3e9af6402eb822629b2586e15d5bd62269b8b7d5e3705a46815cd9d045
+  checksum: 921c7f08354c6d7a64682d6015b46aec4d7cd89d5d3b0b9e478330630cf1c5de4adc8e5a28b871246bb91c86dc679790c76cccfefad4d4bfd3860655b0778fb3
   languageName: node
   linkType: hard
 
