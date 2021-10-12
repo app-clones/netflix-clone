@@ -11124,7 +11124,7 @@ fsevents@^1.2.7:
     immer: ^9.0.6
     normalize-url: ^7.0.2
     normalize.css: 8.0.1
-    postcss: 7.0.36
+    postcss: 7.0.39
     prettier: 2.4.1
     react: 17.0.2
     react-dom: 17.0.2
@@ -12917,6 +12917,16 @@ fsevents@^1.2.7:
     source-map: ^0.6.1
     supports-color: ^6.1.0
   checksum: 544ce0825fa998a77653e8c8bc62b3596273e0d589378b96fb575b74c6b14933a05025713aa5de8c822e9560db01a6c53d0a3fc9295374ffcb142e0fd55ded89
+  languageName: node
+  linkType: hard
+
+"postcss@npm:7.0.39":
+  version: 7.0.39
+  resolution: "postcss@npm:7.0.39"
+  dependencies:
+    picocolors: ^0.2.1
+    source-map: ^0.6.1
+  checksum: 789ae741963f3cf57dff481ef6d0c8d458b8f423bc47ba15bd967f741b8074cf1f34aece48256b6fd914fd313080e9434497cd358519bd67da45da1395ef0899
   languageName: node
   linkType: hard
 
