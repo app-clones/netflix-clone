@@ -2789,16 +2789,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:12.0.0":
-  version: 12.0.0
-  resolution: "@testing-library/react@npm:12.0.0"
+"@testing-library/react@npm:12.1.2":
+  version: 12.1.2
+  resolution: "@testing-library/react@npm:12.1.2"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^8.0.0
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 2b5da0513f5de02636c1610625ca55222ea5c89ee271a9c9c3bcc1282010b9649b8168b8c84d8dc37a29daf0a8c909280ccaf8648dd09c19f2e2d640ea7f9459
+  checksum: d48b14b34d1c24987b44c00ce040e24d5cd0ea37866f24f8fbc000e09b3965de6d754c9f92d56f93dc281d4af199a7dd6a4897d7cd940742ad5c619684eaaff6
   languageName: node
   linkType: hard
 
@@ -11098,7 +11098,7 @@ fsevents@^1.2.7:
   resolution: "netflix@workspace:."
   dependencies:
     "@testing-library/jest-dom": 5.14.1
-    "@testing-library/react": 12.0.0
+    "@testing-library/react": 12.1.2
     "@testing-library/user-event": 13.3.0
     "@types/node": ^16.7.7
     "@types/react": ^17.0.27
