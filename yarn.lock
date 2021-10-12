@@ -8720,10 +8720,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"immer@npm:^9.0.5":
-  version: 9.0.5
-  resolution: "immer@npm:9.0.5"
-  checksum: a7fa984fa1887a33ce6d44a7a505fd5ac76009336d8b1c99d34f59aaefc28aadf93ab1e5db27513acd15be454a8a89d8151e915d9b0b6e86e72acbd28218410b
+"immer@npm:^9.0.6":
+  version: 9.0.6
+  resolution: "immer@npm:9.0.6"
+  checksum: 48c9b673ee0f3a05f0651f26c8ccdcbc034a47502dd26e716bd7bb301bcede194d1c5e895d4d6ec8d1e7bfb6444dd1056095b3f10e6c5e08cc3e798497a96531
   languageName: node
   linkType: hard
 
@@ -11121,7 +11121,7 @@ fsevents@^1.2.7:
     fuse.js: 6.4.6
     glob-parent: ^6.0.2
     husky: 7.0.2
-    immer: ^9.0.5
+    immer: ^9.0.6
     normalize-url: ^7.0.2
     normalize.css: 8.0.1
     postcss: 7.0.36
