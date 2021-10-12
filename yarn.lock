@@ -11022,7 +11022,7 @@ fsevents@^1.2.7:
     glob-parent: ^6.0.2
     husky: 7.0.2
     immer: ^9.0.5
-    normalize-url: ^7.0.1
+    normalize-url: ^7.0.2
     normalize.css: 8.0.1
     postcss: 7.0.36
     prettier: 2.4.1
@@ -11231,10 +11231,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"normalize-url@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "normalize-url@npm:7.0.1"
-  checksum: c07774d19da7bef8d6a438a682c7e9ec30b72c24de3754223090ff75954f8326fe9b7f2732e59969484daec8251c2b4ed683ea75ee49cda2bb5d20d42227e94f
+"normalize-url@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "normalize-url@npm:7.0.2"
+  checksum: 708ae1d8038342e6856cacee49e7ded005ff6104488cef6ea87a85ab2acf88a90a763bbe6c3920e79338bc0a1f5f1f9657b7f3eebbf1dba4dd754834cce815b2
   languageName: node
   linkType: hard
 
