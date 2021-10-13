@@ -75,7 +75,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "babel-eslint": "10.1.0",
-    "browserslist": "^4.17.3",
+    "browserslist": "^4.17.4",
     "eslint": "^8.0.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.3.0",
