@@ -4882,18 +4882,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.17.3":
-  version: 4.17.3
-  resolution: "browserslist@npm:4.17.3"
+"browserslist@npm:^4.17.4":
+  version: 4.17.4
+  resolution: "browserslist@npm:4.17.4"
   dependencies:
-    caniuse-lite: ^1.0.30001264
-    electron-to-chromium: ^1.3.857
+    caniuse-lite: ^1.0.30001265
+    electron-to-chromium: ^1.3.867
     escalade: ^3.1.1
-    node-releases: ^1.1.77
-    picocolors: ^0.2.1
+    node-releases: ^2.0.0
+    picocolors: ^1.0.0
   bin:
     browserslist: cli.js
-  checksum: a68e1d1d5802cdcc4403ffc11df2d7b029ac5e36a8de245b8ab234e9b9cb83923b8f4f69b312b5f7fa2183c43a7091436b22949afddda796cc1ffcfd573effb9
+  checksum: b2b7acf1a8c983902de3bc9ed4f23ad471e402d987ed12cc11766b05373a6c239343ca04d28ab0ac06c9e76bf0e37ffbd7f0dcf9bd9f54f4782c26211d40c08a
   languageName: node
   linkType: hard
 
@@ -5123,7 +5123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001264":
+"caniuse-lite@npm:^1.0.30001265":
   version: 1.0.30001265
   resolution: "caniuse-lite@npm:1.0.30001265"
   checksum: bf6844157df476294e3034161e22f0aca3455c07c275590c8a221d0fccec68d89eab9cc075b2592aa46cd587ea771de4861a2ae1292771183a10901ebec2b34f
@@ -6656,10 +6656,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.3.857":
-  version: 1.3.865
-  resolution: "electron-to-chromium@npm:1.3.865"
-  checksum: 2efcfd61390cbee79875bff5b5bfd7d6fc127673c8cc4392fb6239198ce8f50d7b733781884b05692b65b86d01e6996c44eb8923be37a8e622768e6b8d8a3648
+"electron-to-chromium@npm:^1.3.867":
+  version: 1.3.867
+  resolution: "electron-to-chromium@npm:1.3.867"
+  checksum: 48a75eec3b03ee485ee48d9a790b7fee58992e14cf596e84a49e75e8d1d3eda2f988dcff854143a930a04876723fac90f6c14b70bd63171fbed567bc6489586e
   languageName: node
   linkType: hard
 
@@ -11327,7 +11327,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     babel-eslint: 10.1.0
-    browserslist: ^4.17.3
+    browserslist: ^4.17.4
     eslint: ^8.0.0
     eslint-config-airbnb: 18.2.1
     eslint-config-prettier: 8.3.0
@@ -11478,10 +11478,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^1.1.77":
-  version: 1.1.77
-  resolution: "node-releases@npm:1.1.77"
-  checksum: acc54c73e9a23a854bc04c3e5b948e9f043498e744b8bc7b9169331fed0fba291cb60adc4552809d6d95ef9ed45d16047441205cd80d33c140c68ee0fb767dfc
+"node-releases@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "node-releases@npm:2.0.0"
+  checksum: 072914baf9eab6cc4fb051935acf6a4f9974ab47224794375c817513ca3645dc9f3a65a821e9c6a6d54213e771c4d49db8cff0b6b8bb6b9b31424c815c716829
   languageName: node
   linkType: hard
 
@@ -12223,6 +12223,13 @@ fsevents@^1.2.7:
   version: 0.2.1
   resolution: "picocolors@npm:0.2.1"
   checksum: 84da675558ed004c61a7fa7b0bcce6338c8e3ef1eadb43b5263059d1d745f4567464aa6aa603c506a82942a5a7dfda5bb023605a5f4c9888d7adc154845d579e
+  languageName: node
+  linkType: hard
+
+"picocolors@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "picocolors@npm:1.0.0"
+  checksum: 6616d34dd03bde8881c63402dea34f0b5972845b04b791b234446d4a408bc3d7f932acea3970a6b671d8f5c5aae1b1ce9fc1f89b0ed9a363469cf9da8e916b71
   languageName: node
   linkType: hard
 
