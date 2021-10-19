@@ -11356,7 +11356,7 @@ fsevents@^1.2.7:
     react-dom: 17.0.2
     react-router-dom: 5.3.0
     react-scripts: 4.0.3
-    styled-components: 5.3.1
+    styled-components: 5.3.3
     typescript: ^4.3.5
   languageName: unknown
   linkType: soft
@@ -15371,9 +15371,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"styled-components@npm:5.3.1":
-  version: 5.3.1
-  resolution: "styled-components@npm:5.3.1"
+"styled-components@npm:5.3.3":
+  version: 5.3.3
+  resolution: "styled-components@npm:5.3.3"
   dependencies:
     "@babel/helper-module-imports": ^7.0.0
     "@babel/traverse": ^7.4.5
@@ -15389,7 +15389,7 @@ resolve@^2.0.0-next.3:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
-  checksum: 0c3ae0b2681b0b0383e322429a850fbc229d2cfd95dd3c86ae928898955a2eec7b5792a37510846cc9be0b83b554581f41018cffea7a9f294d831cf95447f899
+  checksum: c0879b91e0994db108b2b775b778d87b81527febc28946819c0e97c57f5aa524f82c9b4da905f8787ecae08f30a3eadecb75a54b3c4ec28718438b660b46853e
   languageName: node
   linkType: hard
 
