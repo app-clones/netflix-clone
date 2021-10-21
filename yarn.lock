@@ -3116,14 +3116,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17.0.30":
-  version: 17.0.30
-  resolution: "@types/react@npm:17.0.30"
+"@types/react@npm:^17.0.31":
+  version: 17.0.31
+  resolution: "@types/react@npm:17.0.31"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 81749c8061db3f724a09e65ebf8adb3d6dde1d356f5ec13fbca8b3376613ee61cb0c9265380f3410b8bf6daa2f10aa94b38af3069f7dc0a90cee2ca86543d55f
+  checksum: bbdfc50fd73d83a8bcaa5afa570e2ad7e442b76d72fdc0be0cbdc428ddb4aff14906bc1a8b842ee49bca890442b3a727d2969dc47bc7a06a4eac29f0b7440f5a
   languageName: node
   linkType: hard
 
@@ -11327,7 +11327,7 @@ fsevents@^1.2.7:
     "@testing-library/react": 12.1.2
     "@testing-library/user-event": 13.5.0
     "@types/node": ^16.7.7
-    "@types/react": ^17.0.30
+    "@types/react": ^17.0.31
     "@types/react-dom": ^17.0.10
     "@types/react-router-dom": ^5.3.1
     "@types/styled-components": ^5.1.15
