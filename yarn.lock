@@ -3084,14 +3084,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-router-dom@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "@types/react-router-dom@npm:5.3.1"
+"@types/react-router-dom@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "@types/react-router-dom@npm:5.3.2"
   dependencies:
     "@types/history": "*"
     "@types/react": "*"
     "@types/react-router": "*"
-  checksum: ce430ff0e2e595d8af4ce672e364a3e366de711e3556223738950bb28332ea1cf3efa8176d8f37a5c2f8e49b1abbb2b03ee607b7ec49171d249cbfec346a4808
+  checksum: 2cb3ae5cca79fa0b6ef8a12c2a26c7abeaec8b2d1654bbd18e45f3e3e09227af069bc0bc72d50de06f5da8264ee1cbd369f23370ab8482ffe14f37571a1f5093
   languageName: node
   linkType: hard
 
@@ -11329,7 +11329,7 @@ fsevents@^1.2.7:
     "@types/node": ^16.7.7
     "@types/react": ^17.0.33
     "@types/react-dom": ^17.0.10
-    "@types/react-router-dom": ^5.3.1
+    "@types/react-router-dom": ^5.3.2
     "@types/styled-components": ^5.1.15
     "@typescript-eslint/eslint-plugin": ^5.2.0
     "@typescript-eslint/parser": ^5.2.0
