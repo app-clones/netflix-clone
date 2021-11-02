@@ -2800,9 +2800,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:5.14.1":
-  version: 5.14.1
-  resolution: "@testing-library/jest-dom@npm:5.14.1"
+"@testing-library/jest-dom@npm:5.15.0":
+  version: 5.15.0
+  resolution: "@testing-library/jest-dom@npm:5.15.0"
   dependencies:
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
@@ -2813,7 +2813,7 @@ __metadata:
     dom-accessibility-api: ^0.5.6
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: b0c4b4ffa1d58bdf22f1682eb973397e8044a3cdd8527de8d1c8169640b3c4585165abcbfc819dee7f4aa40204c6a63afb28dd74ad9bb4e1bfbdc680fd491e30
+  checksum: c89b75f3f997a9cec0659aef89349a5ea12cef7537a2339453578838e8ee297d319685d182f4d5c4f256847a6fd766349767254c1e4edce90c369224f32f78a5
   languageName: node
   linkType: hard
 
@@ -11330,7 +11330,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "netflix@workspace:."
   dependencies:
-    "@testing-library/jest-dom": 5.14.1
+    "@testing-library/jest-dom": 5.15.0
     "@testing-library/react": 12.1.2
     "@testing-library/user-event": 13.5.0
     "@types/node": ^16.11.6
