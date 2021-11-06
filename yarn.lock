@@ -1744,9 +1744,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@eslint/eslintrc@npm:1.0.3"
+"@eslint/eslintrc@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@eslint/eslintrc@npm:1.0.4"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -1754,10 +1754,10 @@ __metadata:
     globals: ^13.9.0
     ignore: ^4.0.6
     import-fresh: ^3.2.1
-    js-yaml: ^3.13.1
+    js-yaml: ^4.1.0
     minimatch: ^3.0.4
     strip-json-comments: ^3.1.1
-  checksum: 34d5a29c6faa6a978f78ba22039afdf5d2503e225dd5fc520e7690fa3a2a1ecd45cbc1a521abdf6662bcd79e3fecebeb896230de8834a32ea5aaf13593635034
+  checksum: 101cc5ed0fef37b5c2a25e57e6b93b6fb358ebaf7500b3fe57d298c6cfc62b6c94c079de93101b4f0338afc75989768bff728f45fafcf35ac49f4c49f6cdf030
   languageName: node
   linkType: hard
 
@@ -3978,6 +3978,13 @@ __metadata:
   version: 5.0.0
   resolution: "ansi-regex@npm:5.0.0"
   checksum: cbd9b5c9dbbb4a949c2a6e93f1c6cc19f0683d8a4724d08d2158627be6d373f0f3ba1f4ada01dce7ee141f2ba2628fbbd29932c7d49926e3b630c7f329f3178b
+  languageName: node
+  linkType: hard
+
+"ansi-regex@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "ansi-regex@npm:5.0.1"
+  checksum: c944e1229f022a2071f7477ea425964328c577d2c752083fe564ea0513b6d733c9ec65102f6d4d2b54cba0cb2dc969648b60d567abeff13dc95ecc0b9b97737d
   languageName: node
   linkType: hard
 
@@ -7343,11 +7350,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.1.0, eslint@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "eslint@npm:8.1.0"
+"eslint@npm:8.2.0, eslint@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "eslint@npm:8.2.0"
   dependencies:
-    "@eslint/eslintrc": ^1.0.3
+    "@eslint/eslintrc": ^1.0.4
     "@humanwhocodes/config-array": ^0.6.0
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -7381,13 +7388,13 @@ __metadata:
     progress: ^2.0.0
     regexpp: ^3.2.0
     semver: ^7.2.1
-    strip-ansi: ^6.0.0
+    strip-ansi: ^6.0.1
     strip-json-comments: ^3.1.0
     text-table: ^0.2.0
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: d3aff6a21fbefc18e4f973900cbcb92f2d52b4013f4867952f1c605bd82802d5dde2bae21ba78b54def716fa2377ff99939c11d231d91b532c1957273f81e66d
+  checksum: 46a3818a7ab8c5bd28f058c302a75f79da2ef4cb723d2be861a073b437012d9c69bca72ac9296cf7d66e1aad48442a08f6c24433ae7cb05dafb399153b9ca03c
   languageName: node
   linkType: hard
 
@@ -11342,7 +11349,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/parser": ^5.3.0
     babel-eslint: 10.1.0
     browserslist: ^4.17.6
-    eslint: ^8.1.0
+    eslint: ^8.2.0
     eslint-config-airbnb: 18.2.1
     eslint-config-prettier: 8.3.0
     eslint-plugin-import: 2.25.2
@@ -15302,6 +15309,15 @@ resolve@^2.0.0-next.3:
   dependencies:
     ansi-regex: ^4.1.0
   checksum: 44a0d0d354f5f7b15f83323879a9112ea746daae7bef0b68238a27626ee757d9a04ce6590433841e14b325e8e7c5d62b8442885e50497e21b7cbca6da40d54ea
+  languageName: node
+  linkType: hard
+
+"strip-ansi@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "strip-ansi@npm:6.0.1"
+  dependencies:
+    ansi-regex: ^5.0.1
+  checksum: 9d3061240b03abe5beaf403893464fdc924f43664debe822d5e9146b56c1398b88003f8afdb97eb0cea955c568f6bbfa4923d2b2a08a3a079fd09ee3b5402efb
   languageName: node
   linkType: hard
 
