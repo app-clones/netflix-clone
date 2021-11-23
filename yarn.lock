@@ -3049,10 +3049,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.9":
-  version: 16.11.9
-  resolution: "@types/node@npm:16.11.9"
-  checksum: 9afcc4a1dcc0de0bdb22ed536a63f2ffef32f453d8971384f9bf5b56e33a9233098f1357385c673b35e4c6b07e74c24384a2f778c4b6c1695ae15ec6a4097da0
+"@types/node@npm:^16.11.10":
+  version: 16.11.10
+  resolution: "@types/node@npm:16.11.10"
+  checksum: ff3e785ab8b82718807d6111e1517374f49b9c747eab9b8213043588fd6512c62e1a61e78bd0c271e36cd4ceddb2c5caa8fe66b462db5650d4a3c4b0177d8cde
   languageName: node
   linkType: hard
 
@@ -11442,7 +11442,7 @@ fsevents@^1.2.7:
     "@testing-library/jest-dom": 5.15.1
     "@testing-library/react": 12.1.2
     "@testing-library/user-event": 13.5.0
-    "@types/node": ^16.11.9
+    "@types/node": ^16.11.10
     "@types/react": ^17.0.36
     "@types/react-dom": ^17.0.11
     "@types/react-router-dom": ^5.3.2
