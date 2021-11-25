@@ -11466,7 +11466,7 @@ fsevents@^1.2.7:
     immer: ^9.0.7
     normalize-url: ^7.0.2
     normalize.css: 8.0.1
-    postcss: 8.4.0
+    postcss: 8.4.1
     prettier: 2.4.1
     react: 17.0.2
     react-dom: 17.0.2
@@ -13295,14 +13295,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.0":
-  version: 8.4.0
-  resolution: "postcss@npm:8.4.0"
+"postcss@npm:8.4.1":
+  version: 8.4.1
+  resolution: "postcss@npm:8.4.1"
   dependencies:
     nanoid: ^3.1.30
     picocolors: ^1.0.0
     source-map-js: ^1.0.1
-  checksum: 5f424235a0fae864e378630c77b4b13c7ee39eb092e873b92252c37e70da2b0f99942fd27520693a1a7f6365b224d7eaa7380664d2611a1e3178dafdea20278a
+  checksum: a5c15acd8d294fc268705b7ac93be1a98359d21718590e352330987a0fa7bdeb4bc9ea1891dd0c3ed373c02a077bf10012214a4f9006b6c08bcd87e03f97414f
   languageName: node
   linkType: hard
 
