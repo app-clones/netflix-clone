@@ -7429,9 +7429,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.4.0, eslint@npm:^8.4.0":
-  version: 8.4.0
-  resolution: "eslint@npm:8.4.0"
+"eslint@npm:8.4.1, eslint@npm:^8.4.1":
+  version: 8.4.1
+  resolution: "eslint@npm:8.4.1"
   dependencies:
     "@eslint/eslintrc": ^1.0.5
     "@humanwhocodes/config-array": ^0.9.2
@@ -7473,7 +7473,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: dc5b33b6d52a2548dde431d37053206ef003fbf76f4884bb326eee1bfd575b95f1568633529d7c5b52fe1c8371ebd989189bfef5a1b0266858cba13893bff08d
+  checksum: 60a4130cb51c361d7fcae1ad65f7f374d6f870bd14034fe4793be5f77136e1c0179b90edc200de791fecd3555f7d6e4e2a98a40f8402038aab0cd350ec36ca77
   languageName: node
   linkType: hard
 
@@ -11445,7 +11445,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/parser": ^5.6.0
     babel-eslint: 10.1.0
     browserslist: ^4.18.1
-    eslint: ^8.4.0
+    eslint: ^8.4.1
     eslint-config-airbnb: 18.2.1
     eslint-config-prettier: 8.3.0
     eslint-plugin-import: 2.25.3
