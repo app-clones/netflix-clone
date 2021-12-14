@@ -4944,9 +4944,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.19.0":
-  version: 4.19.0
-  resolution: "browserslist@npm:4.19.0"
+"browserslist@npm:^4.19.1":
+  version: 4.19.1
+  resolution: "browserslist@npm:4.19.1"
   dependencies:
     caniuse-lite: ^1.0.30001286
     electron-to-chromium: ^1.4.17
@@ -4955,7 +4955,7 @@ __metadata:
     picocolors: ^1.0.0
   bin:
     browserslist: cli.js
-  checksum: 2496aa384ab357d1ee949654a57aa51b3bfae3fdaedd7a546bea9585f937f09bb8a7650b8970cd1f7e5c879fe8d1e40632ed881357d7a0dc92f37aa42a0bfa62
+  checksum: 340af7f0527f903445bf6dd3231d2031666db6c262cc56211f8ec2895a6f570152ed17f239331de400d54f823312d9f8e64f186132e0a310e2bcbd94cf7b354b
   languageName: node
   linkType: hard
 
@@ -11444,7 +11444,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/eslint-plugin": ^5.7.0
     "@typescript-eslint/parser": ^5.7.0
     babel-eslint: 10.1.0
-    browserslist: ^4.19.0
+    browserslist: ^4.19.1
     eslint: ^8.4.1
     eslint-config-airbnb: 18.2.1
     eslint-config-prettier: 8.3.0
