@@ -4944,18 +4944,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.18.1":
-  version: 4.18.1
-  resolution: "browserslist@npm:4.18.1"
+"browserslist@npm:^4.19.0":
+  version: 4.19.0
+  resolution: "browserslist@npm:4.19.0"
   dependencies:
-    caniuse-lite: ^1.0.30001280
-    electron-to-chromium: ^1.3.896
+    caniuse-lite: ^1.0.30001286
+    electron-to-chromium: ^1.4.17
     escalade: ^3.1.1
     node-releases: ^2.0.1
     picocolors: ^1.0.0
   bin:
     browserslist: cli.js
-  checksum: e8d8e3c624f160a7b695b51ce16c154125d535e01ed16e9030c8866ccd0a493bacd3995c019dd95c691a16c7ef86bfd39ace1992dbdf805e02608ea1a2e5023d
+  checksum: 2496aa384ab357d1ee949654a57aa51b3bfae3fdaedd7a546bea9585f937f09bb8a7650b8970cd1f7e5c879fe8d1e40632ed881357d7a0dc92f37aa42a0bfa62
   languageName: node
   linkType: hard
 
@@ -5185,10 +5185,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001280":
-  version: 1.0.30001280
-  resolution: "caniuse-lite@npm:1.0.30001280"
-  checksum: 555d516257758e3a1b5af625458283aa248a839ff540b1ecd834f6afac1b70d0e340b2980d7a8bff564b38324ac74d6efd572bf03ef57809f4b149f8b911a329
+"caniuse-lite@npm:^1.0.30001286":
+  version: 1.0.30001286
+  resolution: "caniuse-lite@npm:1.0.30001286"
+  checksum: b4f48bb148a1a92895c3499c94cdfc7802ed6c88ff973b7f5c9ea6a439f79dae115091ac19ae26b90508a036180a80d9be7dd5a57e2d5ded421a91cfed16c2a2
   languageName: node
   linkType: hard
 
@@ -6718,10 +6718,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.3.896":
-  version: 1.3.896
-  resolution: "electron-to-chromium@npm:1.3.896"
-  checksum: 74786bb21161a33e4f965894c8651182d62a4ccbcb0dc5da00338a7093406edd6e0002b4a8f853b4e9f0c96970691f71f0269e8e0b1b309d07387dfd7e4454d7
+"electron-to-chromium@npm:^1.4.17":
+  version: 1.4.17
+  resolution: "electron-to-chromium@npm:1.4.17"
+  checksum: ab59587b0423d355a2bb6d9114333ce18fdefbbd2d46dd7f54040fe1f24f50d4a71b5252d4746dcccd5c15cdc22f3b37c39f10825c7f0f831a0b36bd3f32ffa7
   languageName: node
   linkType: hard
 
@@ -11444,7 +11444,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/eslint-plugin": ^5.7.0
     "@typescript-eslint/parser": ^5.7.0
     babel-eslint: 10.1.0
-    browserslist: ^4.18.1
+    browserslist: ^4.19.0
     eslint: ^8.4.1
     eslint-config-airbnb: 18.2.1
     eslint-config-prettier: 8.3.0
