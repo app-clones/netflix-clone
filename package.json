@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase": "8.10.0",
-    "fuse.js": "6.4.6",
+    "fuse.js": "6.5.0",
     "immer": "^9.0.7",
     "normalize.css": "8.0.1",
     "react": "17.0.2",
