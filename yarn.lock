@@ -7996,10 +7996,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fuse.js@npm:6.5.2":
-  version: 6.5.2
-  resolution: "fuse.js@npm:6.5.2"
-  checksum: c679df0dd4517c77c72c35c487a158ac3b125237ee53a2c89206d3629608764c8ebe86bfb2a7ac2da009d0de6de596aec20b85b1d80f557767c80fb04c74bf2c
+"fuse.js@npm:6.5.3":
+  version: 6.5.3
+  resolution: "fuse.js@npm:6.5.3"
+  checksum: 5fd6d7671be70de69121bf6cf14eedec46263cda1ec69d066f3c5c28c751fd2658208de10a831aa842061eaa31640ea4d85cb1fc2fc3f4e4dc0449da9d936385
   languageName: node
   linkType: hard
 
@@ -10514,7 +10514,7 @@ __metadata:
     eslint-plugin-react: 7.27.1
     eslint-plugin-react-hooks: 4.3.0
     firebase: 8.10.0
-    fuse.js: 6.5.2
+    fuse.js: 6.5.3
     glob-parent: ^6.0.2
     husky: 7.0.4
     immer: ^9.0.7
