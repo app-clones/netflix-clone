@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FirebaseContext } from "../context/firebase";
 import { FooterContainer } from "../containers/footer";
 import { HeaderContainer } from "../containers/header";
@@ -7,7 +7,7 @@ import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
 
 export default function SignIn() {
-    const history = useHistory();
+    const navigate = useNavigate();
     const { firebase } = useContext(FirebaseContext);
 
     const [emailAddress, setEmailAddress] = useState("");
@@ -23,7 +23,7 @@ export default function SignIn() {
             .auth()
             .signInWithEmailAndPassword(emailAddress, password)
             .then(() => {
-                history.push(ROUTES.BROWSE);
+                navigate(ROUTES.BROWSE);
             })
             .catch((error: any) => {
                 setEmailAddress("");
