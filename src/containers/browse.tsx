@@ -8,7 +8,7 @@ import { Card, Header, Loading, Player } from "../components";
 import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
 
-export function BrowseContainer({ slides }: any) {
+export var BrowseContainer = function({ slides }: any) {
     const [category, setCategory] = useState("series");
     const [searchTerm, setSearchTerm] = useState("");
     const [profile, setProfile] = useState<any>({});

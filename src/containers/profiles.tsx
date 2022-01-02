@@ -2,7 +2,7 @@ import { Header, Profiles } from "../components";
 import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
 
-export function SelectProfileContainer({ user, setProfile }: any) {
+export var SelectProfileContainer = function({ user, setProfile }: any) {
     return (
         <>
             <Header bg={false}>

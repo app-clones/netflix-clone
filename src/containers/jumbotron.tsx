@@ -2,7 +2,7 @@ import { Jumbotron } from "../components";
 
 const jumboData = require("../json/jumbo");
 
-export function JumbotronContainer() {
+export var JumbotronContainer = function() {
     return (
         <Jumbotron.Container>
             {jumboData.map((item) => (

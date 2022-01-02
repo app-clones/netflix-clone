@@ -2,7 +2,7 @@ import { Accordion } from "../components";
 import OptForm from "../components/opt-form";
 import faqsData from "../json/faqs.json";
 
-export function FaqsContainer() {
+export var FaqsContainer = function() {
     return (
         <Accordion>
             <Accordion.Title>Frequently Asked Questions</Accordion.Title>

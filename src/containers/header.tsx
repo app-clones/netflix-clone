@@ -2,7 +2,7 @@ import { Header } from "../components";
 import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
 
-export function HeaderContainer({ children }: any) {
+export var HeaderContainer = function({ children }: any) {
     return (
         <Header>
             <Header.Frame>

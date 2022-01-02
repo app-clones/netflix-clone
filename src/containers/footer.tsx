@@ -1,6 +1,6 @@
 import { Footer } from "../components";
 
-export function FooterContainer() {
+export var FooterContainer = function() {
     return (
         <Footer>
             <Footer.Title>Questions? Contact us.</Footer.Title>

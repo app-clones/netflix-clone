@@ -1,6 +1,6 @@
 import { Route, Navigate } from "react-router-dom";
 
-export function IsUserRedirect({ user, loggedInPath, children, ...rest }: any) {
+export var IsUserRedirect = function({ user, loggedInPath, children, ...rest }: any) {
     return (
         <Route
             {...rest}
@@ -25,7 +25,7 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest }: any) {
     );
 }
 
-export function ProtectedRoute({ user, children, ...rest }: any) {
+export var ProtectedRoute = function({ user, children, ...rest }: any) {
     return (
         <Route
             {...rest}
