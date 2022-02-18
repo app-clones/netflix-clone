@@ -4449,6 +4449,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"browserslist@npm:^4.19.2":
+  version: 4.19.2
+  resolution: "browserslist@npm:4.19.2"
+  dependencies:
+    caniuse-lite: ^1.0.30001312
+    electron-to-chromium: ^1.4.71
+    escalade: ^3.1.1
+    node-releases: ^2.0.2
+    picocolors: ^1.0.0
+  bin:
+    browserslist: cli.js
+  checksum: c213d87c1d15a70ebbba9edd0d217177ceda28fec91d51eee6afb7aafec9149668a32b78adb99bed3a83e572377fdc427268abc5e3d78cbcce6a5521f1f4efda
+  languageName: node
+  linkType: hard
+
 "bser@npm:2.1.1":
   version: 2.1.1
   resolution: "bser@npm:2.1.1"
@@ -4590,6 +4605,13 @@ __metadata:
   version: 1.0.30001295
   resolution: "caniuse-lite@npm:1.0.30001295"
   checksum: 42f77ce2b2e5ce3797ebf9137da491d4be883879be81164740f2d5d403ed85532e4be66f11822bef73922449242de4b70a06153a3c7ed4f6fd7765faebad7b4f
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001312":
+  version: 1.0.30001312
+  resolution: "caniuse-lite@npm:1.0.30001312"
+  checksum: 753fb9ea1e02e999430b323a71b5acab5120f3b5fc0161b01669f54a3ef5c5296240b6ae9b79b12a3742e3aed216aa9ee3d5398a23c16d08625ccd376b79545d
   languageName: node
   linkType: hard
 
@@ -5767,6 +5789,13 @@ __metadata:
   version: 1.4.31
   resolution: "electron-to-chromium@npm:1.4.31"
   checksum: 78785efba7b285243a2c57b6c3165cc72d2c029c40df6b3171fdc2b5693df587ccb0d094b8b3d67448fad01cd98dbb4ce7a0dcc3c1b0d58b84a178de28deb20d
+  languageName: node
+  linkType: hard
+
+"electron-to-chromium@npm:^1.4.71":
+  version: 1.4.71
+  resolution: "electron-to-chromium@npm:1.4.71"
+  checksum: ecb2546eed6b0e95003d787c259de730f32e2f5c0fa2acb27069c0cd21378cbc2a6c7516f4ec677a5960db4e180644f87ed91a729825a238454e31e4e74617db
   languageName: node
   linkType: hard
 
@@ -9264,7 +9293,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.12.0
     "@typescript-eslint/parser": ^5.12.0
     babel-eslint: 10.1.0
-    browserslist: ^4.19.1
+    browserslist: ^4.19.2
     eslint: ^8.6.0
     eslint-config-airbnb: 19.0.4
     eslint-config-prettier: 8.3.0
@@ -9353,6 +9382,13 @@ __metadata:
   version: 2.0.1
   resolution: "node-releases@npm:2.0.1"
   checksum: b20dd8d4bced11f75060f0387e05e76b9dc4a0451f7bb3516eade6f50499ea7768ba95d8a60d520c193402df1e58cb3fe301510cc1c1ad68949c3d57b5149866
+  languageName: node
+  linkType: hard
+
+"node-releases@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "node-releases@npm:2.0.2"
+  checksum: da858bf86b4d512842379749f5a5e4196ddab05ba18ffcf29f05bf460beceaca927f070f4430bb5046efec18941ddbc85e4c5fdbb83afc28a38dd6069a2f255e
   languageName: node
   linkType: hard
 
