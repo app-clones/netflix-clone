@@ -90,6 +90,6 @@
     "normalize-url": "^7.0.3",
     "postcss": "8.4.7",
     "prettier": "2.5.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.2"
   }
 }
