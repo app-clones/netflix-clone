@@ -89,7 +89,7 @@
     "husky": "7.0.4",
     "normalize-url": "^7.0.3",
     "postcss": "8.4.11",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "typescript": "^4.6.2"
   }
 }
