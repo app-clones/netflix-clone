@@ -1,6 +1,6 @@
 {
     "extends": ["airbnb", "prettier"],
-    "plugins": ["@typescript-eslint", "react", "react-hooks"],
+    "plugins": ["@typescript-eslint", "react-hooks"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 2020,
