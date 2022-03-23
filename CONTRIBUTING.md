@@ -2,6 +2,9 @@
 
 ## Pull Request Process
 
-1. Ensure you have gitigore'd the node_modules or any other large folders.
-2. Update the README.md if needed.
-3. Please wait for me or another contributor to accept your changes. I am busy with school right now so please be patient!
+1. Fork the repository
+2. Create a new branch
+3. Push your changes to that branch
+4. Submit a pull request
+    - In the pull request describe what changes you made, why you made those changes, and why you think they're neccesary
+5. Be patient with the pull request review process, as I am very busy with school at the moment
