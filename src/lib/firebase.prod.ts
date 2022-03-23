@@ -1,4 +1,4 @@
-import Firebase from "firebase/app";
+import { initializeApp } from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
@@ -16,7 +16,7 @@ const config = {
     appId: process.env.APP_REACT_APP_ID
 };
 
-const firebase = Firebase.initializeApp(config);
+const firebase = initializeApp(config);
 
 // 3) When seeding the database you have to uncomment this as well!
 
