@@ -2865,12 +2865,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@testing-library/user-event@npm:14.0.1"
+"@testing-library/user-event@npm:14.0.3":
+  version: 14.0.3
+  resolution: "@testing-library/user-event@npm:14.0.3"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 8a7b72eea7319582835b874032095748309eff5736a3aa7c7e44110de80eb2e068c067c00179b360a842ec7854403e9b2a4c2be151c6a92428c0b23a7bde9f51
+  checksum: aa67f4a7c8c6caa1008093ab78641dc9c8a5a335c67c8b39c76473959cd7d17d2abe1c2983ed0e2dc4e4b4305f467f5d8f5e44e451a18c7309c3cf8f613275a5
   languageName: node
   linkType: hard
 
@@ -9331,7 +9331,7 @@ __metadata:
     "@babel/runtime": ^7.17.8
     "@testing-library/jest-dom": 5.16.3
     "@testing-library/react": 13.0.0
-    "@testing-library/user-event": 14.0.1
+    "@testing-library/user-event": 14.0.3
     "@types/node": ^17.0.6
     "@types/react": ^17.0.43
     "@types/react-dom": ^17.0.14
