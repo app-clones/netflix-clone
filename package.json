@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/runtime": "^7.17.8",
+    "@babel/runtime": "^7.17.9",
     "firebase": "9.6.10",
     "fuse.js": "6.5.3",
     "immer": "^9.0.12",
