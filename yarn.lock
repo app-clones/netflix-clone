@@ -3220,6 +3220,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "@types/react-dom@npm:18.0.1"
+  dependencies:
+    "@types/react": "*"
+  checksum: 6c183e2e50240b77ed767cd968fe061ef4f2b47f84da5ec9e412a767d68c9a004d1f6ccca4295a5aa2c3ee723377e59006a2031f3767c00d8ac9e240a51bb142
+  languageName: node
+  linkType: hard
+
 "@types/react-router-dom@npm:^5.3.3":
   version: 5.3.3
   resolution: "@types/react-router-dom@npm:5.3.3"
@@ -9366,7 +9375,7 @@ __metadata:
     "@testing-library/user-event": 14.1.0
     "@types/node": ^17.0.6
     "@types/react": ^17.0.44
-    "@types/react-dom": ^18.0.0
+    "@types/react-dom": ^18.0.1
     "@types/react-router-dom": ^5.3.3
     "@types/styled-components": ^5.1.25
     "@typescript-eslint/eslint-plugin": ^5.19.0
