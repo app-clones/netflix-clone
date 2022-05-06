@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/runtime": "^7.17.9",
     "firebase": "9.7.0",
-    "fuse.js": "6.5.3",
+    "fuse.js": "6.6.1",
     "immer": "^9.0.12",
     "normalize.css": "8.0.1",
     "react": "18.1.0",
