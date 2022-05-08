@@ -86,7 +86,7 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.5.0",
     "glob-parent": "^6.0.2",
-    "husky": "7.0.4",
+    "husky": "8.0.0",
     "normalize-url": "^7.0.3",
     "postcss": "8.4.13",
     "prettier": "2.6.2",
