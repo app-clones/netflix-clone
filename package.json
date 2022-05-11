@@ -6,7 +6,7 @@
     "@babel/runtime": "^7.17.9",
     "firebase": "9.8.1",
     "fuse.js": "6.6.2",
-    "immer": "^9.0.12",
+    "immer": "^9.0.13",
     "normalize.css": "8.0.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
