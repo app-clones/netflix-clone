@@ -2843,17 +2843,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:12.1.4":
-  version: 12.1.4
-  resolution: "@testing-library/react@npm:12.1.4"
+"@testing-library/react@npm:12.1.5":
+  version: 12.1.5
+  resolution: "@testing-library/react@npm:12.1.5"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^8.0.0
-    "@types/react-dom": "*"
+    "@types/react-dom": <18.0.0
   peerDependencies:
-    react: "*"
-    react-dom: "*"
-  checksum: 944c5f8d4abb22c0650c25c7ae499651828c37c0e741ff67a4635d4cd99b307d486dabec05b372aba638bd359d29cd2af97393b5055ea294a201d80b4bc384b8
+    react: <18.0.0
+    react-dom: <18.0.0
+  checksum: 4abd0490405e709a7df584a0db604e508a4612398bb1326e8fa32dd9393b15badc826dcf6d2f7525437886d507871f719f127b9860ed69ddd204d1fa834f576a
   languageName: node
   linkType: hard
 
@@ -3196,7 +3196,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:*, @types/react-dom@npm:^17.0.14":
+"@types/react-dom@npm:<18.0.0":
+  version: 17.0.17
+  resolution: "@types/react-dom@npm:17.0.17"
+  dependencies:
+    "@types/react": ^17
+  checksum: 23caf98aa03e968811560f92a2c8f451694253ebe16b670929b24eaf0e7fa62ba549abe9db0ac028a9d8a9086acd6ab9c6c773f163fa21224845edbc00ba6232
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:^17.0.14":
   version: 17.0.14
   resolution: "@types/react-dom@npm:17.0.14"
   dependencies:
@@ -3234,6 +3243,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 1b086ec0ea5d666f05e19e0724e41278d27a2ca29a2cd71b9d9ab3fe27dba233806eb728d744e092c9fe9637ac738d8c5a05983cde84d215342949b47ecba2ef
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17":
+  version: 17.0.45
+  resolution: "@types/react@npm:17.0.45"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 3cc13a02824c13f6fa4807a83abd065ac1d9943359e76bd995cc7cd2b4148c1176ebd54a30a9f4eb8a0f141ff359d712876f256c4fee707e4290607ef8410b3e
   languageName: node
   linkType: hard
 
@@ -9187,7 +9207,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.17.8
     "@testing-library/jest-dom": 5.16.2
-    "@testing-library/react": 12.1.4
+    "@testing-library/react": 12.1.5
     "@testing-library/user-event": 13.5.0
     "@types/node": ^17.0.6
     "@types/react": ^17.0.41
