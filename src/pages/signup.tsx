@@ -5,11 +5,17 @@ import { FooterContainer } from "../containers/footer";
 import { HeaderContainer } from "../containers/header";
 import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
+import {
+    createUserWithEmailAndPassword,
+    getAuth,
+    updateProfile
+} from "firebase/auth";
 
 export default function SignUp() {
     const navigate = useNavigate();
 
     const { firebase } = useContext(FirebaseContext);
+    const auth = getAuth(firebase);
 
     const [firstName, setFirstName] = useState("");
     const [emailAddress, setEmailAddress] = useState("");
@@ -22,18 +28,15 @@ export default function SignUp() {
     const handleSignup = (event: any) => {
         event.preventDefault();
 
-        firebase
-            .auth()
-            .createUserWithEmailAndPassword(emailAddress, password)
-            .then((result: any) => {
-                result.user
-                    .updateProfile({
-                        displayName: firstName,
-                        photoURL: Math.floor(Math.random() * 5) + 1
-                    })
-                    .then(() => {
-                        navigate(ROUTES.BROWSE);
-                    });
+        createUserWithEmailAndPassword(auth, emailAddress, password)
+            .then((result) => {
+                updateProfile(result.user, {
+                    displayName: firstName,
+                    // @ts-ignore
+                    photoURL: Math.floor(Math.random() * 5) + 1
+                }).then(() => {
+                    navigate(ROUTES.BROWSE);
+                });
             })
             .catch((error: any) => {
                 setEmailAddress("");

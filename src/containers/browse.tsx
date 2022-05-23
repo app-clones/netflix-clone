@@ -6,6 +6,7 @@ import { FirebaseContext } from "../context/firebase";
 import { Card, Header, Loading, Player } from "../components";
 import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
+import { getAuth } from "firebase/auth";
 
 export function BrowseContainer({ slides }: any) {
     const [category, setCategory] = useState("series");
@@ -15,7 +16,8 @@ export function BrowseContainer({ slides }: any) {
     const [slideRows, setSlideRows] = useState([]);
 
     const { firebase } = useContext(FirebaseContext);
-    const user = firebase.auth().currentUser || {};
+    const auth = getAuth(firebase);
+    const user = auth.currentUser;
 
     useEffect(() => {
         setTimeout(() => {
@@ -48,7 +50,7 @@ export function BrowseContainer({ slides }: any) {
     return profile.displayName ? (
         <>
             {loading ? (
-                <Loading src={user.photoURL} />
+                <Loading src={user?.photoURL} />
             ) : (
                 <Loading.ReleaseBody />
             )}
@@ -80,19 +82,17 @@ export function BrowseContainer({ slides }: any) {
                             setSearchTerm={setSearchTerm}
                         />
                         <Header.Profile>
-                            <Header.Picture src={user.photoURL} />
+                            <Header.Picture src={user?.photoURL} />
                             <Header.Dropdown>
                                 <Header.Group>
-                                    <Header.Picture src={user.photoURL} />
+                                    <Header.Picture src={user?.photoURL} />
                                     <Header.TextLink>
-                                        {user.displayName}
+                                        {user?.displayName}
                                     </Header.TextLink>
                                 </Header.Group>
                                 <Header.Group>
                                     <Header.TextLink
-                                        onClick={() =>
-                                            firebase.auth().signOut()
-                                        }
+                                        onClick={() => auth.signOut()}
                                     >
                                         Sign out
                                     </Header.TextLink>

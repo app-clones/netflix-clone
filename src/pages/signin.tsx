@@ -5,10 +5,12 @@ import { FooterContainer } from "../containers/footer";
 import { HeaderContainer } from "../containers/header";
 import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 export default function SignIn() {
     const navigate = useNavigate();
     const { firebase } = useContext(FirebaseContext);
+    const auth = getAuth(firebase);
 
     const [emailAddress, setEmailAddress] = useState("");
     const [password, setPassword] = useState("");
@@ -19,9 +21,7 @@ export default function SignIn() {
     const handleSignIn = (event: any) => {
         event.preventDefault();
 
-        firebase
-            .auth()
-            .signInWithEmailAndPassword(emailAddress, password)
+        signInWithEmailAndPassword(auth, emailAddress, password)
             .then(() => {
                 navigate(ROUTES.BROWSE);
             })

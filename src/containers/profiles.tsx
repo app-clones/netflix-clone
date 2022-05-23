@@ -3,6 +3,8 @@ import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
 
 export function SelectProfileContainer({ user, setProfile }: any) {
+    console.log(user);
+
     return (
         <>
             <Header bg={false}>
