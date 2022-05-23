@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
-    return (
+const Home: NextPage = () => (
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
             <Head>
                 <title>Netflix</title>
@@ -10,6 +9,5 @@ const Home: NextPage = () => {
             </Head>
         </div>
     );
-};
 
 export default Home;
