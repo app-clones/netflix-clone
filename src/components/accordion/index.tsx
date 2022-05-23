@@ -1,4 +1,3 @@
-/* eslint-disable no-shadow */
 import { useContext, createContext, useState } from "react";
 
 import {

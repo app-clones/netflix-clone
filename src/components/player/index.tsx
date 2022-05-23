@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars,jsx-a11y/media-has-caption */
 import { useState, useContext, createContext } from "react";
 import ReactDOM from "react-dom";
 import { Container, Button, Overlay, Inner } from "./styles/player";
@@ -42,7 +41,6 @@ Player.Button = function PlayerButton({ ...restProps }) {
 
     return (
         <Button
-            // eslint-disable-next-line no-shadow
             onClick={() => setShowPlayer((showPlayer) => !showPlayer)}
             {...restProps}
         >

@@ -1,4 +1,3 @@
-/* eslint-disable no-nested-ternary */
 import { useContext, useEffect, useState } from "react";
 import Fuse from "fuse.js";
 import { SelectProfileContainer } from "./profiles";
@@ -44,7 +43,6 @@ export function BrowseContainer({ slides }: any) {
         } else {
             setSlideRows(slides[category]);
         }
-        // eslint-disable-next-line
     }, [searchTerm]);
 
     return profile.displayName ? (
