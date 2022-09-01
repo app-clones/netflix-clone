@@ -9205,7 +9205,7 @@ __metadata:
     glob-parent: ^6.0.2
     husky: 8.0.1
     immer: ^9.0.15
-    normalize-url: ^7.0.3
+    normalize-url: ^7.1.0
     normalize.css: 8.0.1
     postcss: 8.4.16
     prettier: 2.7.1
@@ -9322,10 +9322,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-url@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "normalize-url@npm:7.0.3"
-  checksum: b57f6466cae7c66a274c7a40c7c9b7b81a49fc30872081793f58a885189889b26cac7370f6e049347f33f7e31dbbceb526b1e1cb28083344756c3d82ba4b34eb
+"normalize-url@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "normalize-url@npm:7.1.0"
+  checksum: 9dd842d83507defef45dc029005c8dc4c124105ec8ddcb9d95c1dddacf656b9c1ea5a32ce9515d47a69e6b52e4a1af2c1e2c88e6583f460ae8e83a0d00147dbb
   languageName: node
   linkType: hard
 
