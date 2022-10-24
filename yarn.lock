@@ -3270,12 +3270,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.6":
-  version: 18.0.6
-  resolution: "@types/react-dom@npm:18.0.6"
+"@types/react-dom@npm:^18.0.7":
+  version: 18.0.7
+  resolution: "@types/react-dom@npm:18.0.7"
   dependencies:
     "@types/react": "*"
-  checksum: db571047af1a567631758700b9f7d143e566df939cfe5fbf7535347cc0c726a1cdbb5e3f8566d076e54cf708b6c1166689de194a9ba09ee35efc9e1d45911685
+  checksum: 4fd47dd114d61e7228637de9bee685b81ea18b89b220a67662b05ebe74f69aad7cd929ebe69e8fd572cc8e0e9adf9bba1ea5586cfd37eb9045778851e78bcd66
   languageName: node
   linkType: hard
 
@@ -9185,7 +9185,7 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     "@types/node": ^17.0.35
     "@types/react": ^18.0.22
-    "@types/react-dom": ^18.0.6
+    "@types/react-dom": ^18.0.7
     "@types/react-router-dom": ^5.3.3
     "@types/styled-components": ^5.1.26
     browserslist: ^4.21.4
