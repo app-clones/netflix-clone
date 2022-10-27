@@ -4,7 +4,7 @@
     "private": true,
     "dependencies": {
         "@babel/runtime": "^7.20.0",
-        "firebase": "9.12.1",
+        "firebase": "9.13.0",
         "fuse.js": "6.6.2",
         "immer": "^9.0.16",
         "normalize.css": "8.0.1",
