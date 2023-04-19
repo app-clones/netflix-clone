@@ -27,7 +27,7 @@
         "glob-parent": "^6.0.2",
         "husky": "8.0.3",
         "normalize-url": "^8.0.0",
-        "postcss": "8.4.22",
+        "postcss": "8.4.23",
         "prettier": "2.8.7",
         "typescript": "^5.0.4"
     },
