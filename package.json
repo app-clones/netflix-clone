@@ -19,8 +19,8 @@
         "@testing-library/react": "14.0.0",
         "@testing-library/user-event": "14.4.3",
         "@types/node": "^18.16.0",
-        "@types/react": "^18.0.38",
-        "@types/react-dom": "^18.0.11",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.1",
         "@types/react-router-dom": "^5.3.3",
         "@types/styled-components": "^5.1.26",
         "browserslist": "^4.21.5",
@@ -32,7 +32,7 @@
         "typescript": "^5.0.4"
     },
     "resolutions": {
-        "@types/react": "^18.0.38"
+        "@types/react": "^18.2.0"
     },
     "scripts": {
         "start": "react-scripts start",
