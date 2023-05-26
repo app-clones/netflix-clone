@@ -1456,12 +1456,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@babel/runtime@npm:7.21.5"
+"@babel/runtime@npm:^7.22.0":
+  version: 7.22.0
+  resolution: "@babel/runtime@npm:7.22.0"
   dependencies:
     regenerator-runtime: ^0.13.11
-  checksum: 358f2779d3187f5c67ad302e8f8d435412925d0b991d133c7d4a7b1ddd5a3fda1b6f34537cb64628dfd96a27ae46df105bed3895b8d754b88cacdded8d1129dd
+  checksum: fa60a963f33de98baf55179b8b4b986d7ed4b97ec4f725e976fd3ecd6f3005096d9df4ef3cd4a6ce46105d619c7cb086567bcf272e4596a63e66ef9b36463bcb
   languageName: node
   linkType: hard
 
@@ -9160,7 +9160,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "netflix@workspace:."
   dependencies:
-    "@babel/runtime": ^7.21.5
+    "@babel/runtime": ^7.22.0
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 14.0.0
     "@testing-library/user-event": 14.4.3
