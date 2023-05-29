@@ -4495,9 +4495,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.21.6":
-  version: 4.21.6
-  resolution: "browserslist@npm:4.21.6"
+"browserslist@npm:^4.21.7":
+  version: 4.21.7
+  resolution: "browserslist@npm:4.21.7"
   dependencies:
     caniuse-lite: ^1.0.30001489
     electron-to-chromium: ^1.4.411
@@ -4505,7 +4505,7 @@ __metadata:
     update-browserslist-db: ^1.0.11
   bin:
     browserslist: cli.js
-  checksum: d9bfff6e5a34091cb73e229909674870ac5bafdd2f66aa05029102f8a93ed43167f12ad52007bc0e7e020fdd358509237ca2039db5667077187bf0cd8c3fa062
+  checksum: 3d0d025e6d381c4db5e71b538258952660ba574c060832095f182a9877ca798836fa550736269e669a2080e486f0cfdf5d3bcf2769b9f7cf123f6c6b8c005f8f
   languageName: node
   linkType: hard
 
@@ -9169,7 +9169,7 @@ __metadata:
     "@types/react-dom": ^18.2.4
     "@types/react-router-dom": ^5.3.3
     "@types/styled-components": ^5.1.26
-    browserslist: ^4.21.6
+    browserslist: ^4.21.7
     firebase: 9.22.1
     fuse.js: 6.6.2
     glob-parent: ^6.0.2
