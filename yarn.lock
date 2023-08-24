@@ -5,10 +5,10 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@adobe/css-tools@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@adobe/css-tools@npm:4.0.1"
-  checksum: 80226e2229024c21da9ffa6b5cd4a34b931f071e06f45aba4777ade071d7a6c94605cf73b13718b0c4b34e8b124c65c607b82eaa53a326d3eb73d9682a04a593
+"@adobe/css-tools@npm:^4.3.0":
+  version: 4.3.1
+  resolution: "@adobe/css-tools@npm:4.3.1"
+  checksum: ad43456379ff391132aff687ece190cb23ea69395e23c9b96690eeabe2468da89a4aaf266e4f8b6eaab53db3d1064107ce0f63c3a974e864f4a04affc768da3f
   languageName: node
   linkType: hard
 
@@ -2885,11 +2885,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:6.1.1":
-  version: 6.1.1
-  resolution: "@testing-library/jest-dom@npm:6.1.1"
+"@testing-library/jest-dom@npm:6.1.2":
+  version: 6.1.2
+  resolution: "@testing-library/jest-dom@npm:6.1.2"
   dependencies:
-    "@adobe/css-tools": ^4.0.1
+    "@adobe/css-tools": ^4.3.0
     "@babel/runtime": ^7.9.2
     aria-query: ^5.0.0
     chalk: ^3.0.0
@@ -2911,7 +2911,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 1255f8c0c296fcec385cda7f818f1027f3c416e4c8b6d778d45a188aa4a483891baecf709cea6cda8fc4a0440b251a6e5bdaa7924bcea94a58c3052f1b16cc8a
+  checksum: de6b7f98d1b42887192eb70fd917b2b98d92aab22a86801718de75e0ca4964589335efeb650b0f7b9859609446b20d2bd81bfc5755f1655885d5664d1c093a70
   languageName: node
   linkType: hard
 
@@ -9170,7 +9170,7 @@ __metadata:
   resolution: "netflix@workspace:."
   dependencies:
     "@babel/runtime": ^7.22.10
-    "@testing-library/jest-dom": 6.1.1
+    "@testing-library/jest-dom": 6.1.2
     "@testing-library/react": 14.0.0
     "@testing-library/user-event": 14.4.3
     "@types/node": ^18.17.9
