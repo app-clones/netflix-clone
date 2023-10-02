@@ -23,7 +23,7 @@
         "@types/react-dom": "^18.2.8",
         "@types/react-router-dom": "^5.3.3",
         "@types/styled-components": "^5.1.28",
-        "browserslist": "^4.21.10",
+        "browserslist": "^4.22.1",
         "glob-parent": "^6.0.2",
         "husky": "8.0.3",
         "normalize-url": "^8.0.0",
