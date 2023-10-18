@@ -20,7 +20,7 @@
         "@testing-library/user-event": "14.5.1",
         "@types/node": "^18.18.6",
         "@types/react": "^18.2.29",
-        "@types/react-dom": "^18.2.13",
+        "@types/react-dom": "^18.2.14",
         "@types/react-router-dom": "^5.3.3",
         "@types/styled-components": "^5.1.28",
         "browserslist": "^4.22.1",
