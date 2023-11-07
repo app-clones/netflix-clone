@@ -22,7 +22,7 @@
         "@types/react": "^18.2.36",
         "@types/react-dom": "^18.2.14",
         "@types/react-router-dom": "^5.3.3",
-        "@types/styled-components": "^5.1.29",
+        "@types/styled-components": "^5.1.30",
         "browserslist": "^4.22.1",
         "glob-parent": "^6.0.2",
         "husky": "8.0.3",
