@@ -3358,14 +3358,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.30":
-  version: 5.1.30
-  resolution: "@types/styled-components@npm:5.1.30"
+"@types/styled-components@npm:^5.1.31":
+  version: 5.1.31
+  resolution: "@types/styled-components@npm:5.1.31"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: 22948191a2de0187ab20383c1d9a6b7c9dfda9e6d58f104e03fd8bb8f3ee150b800806e90efa888f1d0fbb53d404613e4b6cccf0c77eb4287e8b1aeb1d7c1cb5
+  checksum: bfa93d2a65705e82f25bfdb4868b56133f69162816bbe904c767c6b8de2ae6b056faba1e7b7fe8cbc08195f815b95a1c5b80a7e9f72145b155c4e1b933d79b57
   languageName: node
   linkType: hard
 
@@ -9164,7 +9164,7 @@ __metadata:
     "@types/react": ^18.2.37
     "@types/react-dom": ^18.2.15
     "@types/react-router-dom": ^5.3.3
-    "@types/styled-components": ^5.1.30
+    "@types/styled-components": ^5.1.31
     browserslist: ^4.22.1
     firebase: 10.6.0
     fuse.js: 7.0.0
