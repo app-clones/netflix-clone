@@ -7367,10 +7367,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immer@npm:^10.0.3":
-  version: 10.0.3
-  resolution: "immer@npm:10.0.3"
-  checksum: 76acabe6f40e752028313762ba477a5d901e57b669f3b8fb406b87b9bb9b14e663a6fbbf5a6d1ab323737dd38f4b2494a4e28002045b88948da8dbf482309f28
+"immer@npm:^10.1.1":
+  version: 10.1.1
+  resolution: "immer@npm:10.1.1"
+  checksum: 07c67970b7d22aded73607193d84861bf786f07d47f7d7c98bb10016c7a88f6654ad78ae1e220b3c623695b133aabbf24f5eb8d9e8060cff11e89ccd81c9c10b
   languageName: node
   linkType: hard
 
@@ -9163,7 +9163,7 @@ __metadata:
     fuse.js: 7.0.0
     glob-parent: ^6.0.2
     husky: 8.0.3
-    immer: ^10.0.3
+    immer: ^10.1.1
     normalize-url: ^8.0.0
     normalize.css: 8.0.1
     postcss: 8.4.32
