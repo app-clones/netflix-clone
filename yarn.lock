@@ -6816,10 +6816,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fuse.js@npm:7.0.0":
-  version: 7.0.0
-  resolution: "fuse.js@npm:7.0.0"
-  checksum: d15750efec1808370c0cae92ec9473aa7261c59bca1f15f1cf60039ba6f804b8f95340b5cabd83a4ef55839c1034764856e0128e443921f072aa0d8a20e4cacf
+"fuse.js@npm:7.1.0":
+  version: 7.1.0
+  resolution: "fuse.js@npm:7.1.0"
+  checksum: e0c7d6833d336f9facd9359a888170b90c418b2f46c6cb389fd7dbc708712a2d1c5f30b5fea13b634a090a21f69d746eb0ceaff545b11ca088d3e5058c2a8e15
   languageName: node
   linkType: hard
 
@@ -9160,7 +9160,7 @@ __metadata:
     "@types/styled-components": ^5.1.34
     browserslist: ^4.22.2
     firebase: 10.7.1
-    fuse.js: 7.0.0
+    fuse.js: 7.1.0
     glob-parent: ^6.0.2
     husky: 8.0.3
     immer: ^10.0.3
