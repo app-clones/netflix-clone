@@ -18,7 +18,7 @@ jobs:
     name: njsscan code scanning
     steps:
     - name: Checkout the code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: nodejsscan scan
       id: njsscan
       uses: ajinabraham/njsscan-action@master
