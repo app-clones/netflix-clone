@@ -4346,6 +4346,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"balanced-match@npm:^4.0.2":
+  version: 4.0.4
+  resolution: "balanced-match@npm:4.0.4"
+  checksum: fb07bb66a0959c2843fc055838047e2a95ccebb837c519614afb067ebfdf2fa967ca8d712c35ced07f2cd26fc6f07964230b094891315ad74f11eba3d53178a0
+  languageName: node
+  linkType: hard
+
 "batch@npm:0.6.1":
   version: 0.6.1
   resolution: "batch@npm:0.6.1"
@@ -4432,6 +4439,15 @@ __metadata:
     balanced-match: ^1.0.0
     concat-map: 0.0.1
   checksum: faf34a7bb0c3fcf4b59c7808bc5d2a96a40988addf2e7e09dfbb67a2251800e0d14cd2bfc1aa79174f2f5095c54ff27f46fb1289fe2d77dac755b5eb3434cc07
+  languageName: node
+  linkType: hard
+
+"brace-expansion@npm:^5.0.8":
+  version: 5.1.0
+  resolution: "brace-expansion@npm:5.1.0"
+  dependencies:
+    balanced-match: ^4.0.2
+  checksum: 30d7338940df0caedab4a82536efac98d19580425366d5a5728f282fbdd76ec12312ad0c7d5e28cc084d35a91768d4723207caf46337045b46e97c0f8bf8358d
   languageName: node
   linkType: hard
 
@@ -6913,6 +6929,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"glob-parent@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "glob-parent@npm:7.0.0"
+  dependencies:
+    minimatch: 10.2.6
+  checksum: cae2f67a620705bbf07f5eab1a3d60be3cfd45e0f625792eefd3818b00a95c919f93d8154734d6ba3f21ce640d16eba19cc3aa10fe0a306991296d1c02d1a722
+  languageName: node
+  linkType: hard
+
 "glob-to-regexp@npm:^0.4.1":
   version: 0.4.1
   resolution: "glob-to-regexp@npm:0.4.1"
@@ -8951,6 +8976,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:10.2.6":
+  version: 10.2.6
+  resolution: "minimatch@npm:10.2.6"
+  dependencies:
+    brace-expansion: ^5.0.8
+  checksum: 6f3d0ba7654a6d667dc1787a3684192d65e130cbcf02c1b0cf0d0b2f7f69ab41703d4d255dc171632dc25994527a35fb6ea7d44cc6132e4d93de5a2efb210bd1
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:3.0.4":
   version: 3.0.4
   resolution: "minimatch@npm:3.0.4"
@@ -9161,7 +9195,7 @@ __metadata:
     browserslist: ^4.22.2
     firebase: 10.7.1
     fuse.js: 7.0.0
-    glob-parent: ^6.0.2
+    glob-parent: ^7.0.0
     husky: 8.0.3
     immer: ^10.0.3
     normalize-url: ^8.0.0
